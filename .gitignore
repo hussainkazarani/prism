@@ -1,0 +1,13 @@
+macos/
+linux/
+windows/
+web/
+test/
+build/
+
+/build/
+.dart_tool/
+.DS_Store
+*.iml
+.idea/
+.vscode/
