@@ -8,4 +8,8 @@ class AppColors {
   static const accent = Color(0xFF49111C);
   static const error = Color(0xFFD32F2F);
   static const success = Color(0xFF388E3C);
+  static final textDark =
+      HSLColor.fromColor(Color(0xFFF2F4F3))
+          .withLightness(0.7) // Reduce lightness (lower = darker)
+          .toColor();
 }
