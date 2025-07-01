@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:prism/colors.dart';
+import 'package:prism/main_nav_bar.dart';
 import 'package:prism/models/models.dart';
 import 'package:prism/screens/home_screen.dart';
 import 'package:prism/styles.dart';
@@ -60,7 +61,9 @@ class ResultScreen extends StatelessWidget {
               // Action buttons
               actionButton('Home', () {
                 Navigator.of(context).pushReplacement(
-                  MaterialPageRoute(builder: (context) => const HomePage()),
+                  MaterialPageRoute(
+                    builder: (context) => const MainNavScreen(),
+                  ),
                 );
               }),
 
